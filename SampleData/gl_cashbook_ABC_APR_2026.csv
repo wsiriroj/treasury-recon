@@ -1,0 +1,18 @@
+posted_date,doc_ref,description,paid_out,received_in,gl_category
+2026-04-04,AR-220,Central Department Store - INV-2026-220,,185000.00,Domestic Sales
+2026-04-07,AR-221,Bangkok Mall Co - INV-2026-221,,142000.00,Domestic Sales
+2026-04-11,AR-222,Siam Apparel Trading - INV-2026-222,,168000.00,Domestic Sales
+2026-04-18,AR-223,Chiang Mai Outlet - INV-2026-223,,95000.00,Domestic Sales
+2026-04-24,AR-224,Phuket Surf Co - INV-2026-224,,110000.00,Domestic Sales
+2026-04-09,EXP-90,Tokyo Apparel KK - export INV EXP-90,,295000.00,Export Sales
+2026-04-21,EXP-91,Sydney Streetwear - export INV EXP-91,,238000.00,Export Sales
+2026-04-03,AP-410,Pathum Cotton Mills - PO 410,165000.00,,Inventory Purchases
+2026-04-10,AP-411,Samut Garment Factory - PO 411,220000.00,,Inventory Purchases
+2026-04-17,AP-412,Khon Kaen Textiles - PO 412,138000.00,,Inventory Purchases
+2026-04-13,IMP-2026-04,"Import payment USD 8,000 @ 35.6 - premium fabric",285000.00,,Import Purchases
+2026-04-22,FX-SELL-2026-04,"Sell USD 1,200 @ 35.0 spot",,42000.00,FX Conversion
+2026-04-15,VAT-2026-04,VAT Apr 2026 (PP30),78000.00,,Tax (VAT)
+2026-04-14,CUST-2026-04,Customs duty import declaration Apr,18500.00,,Customs Duty
+2026-04-27,PAYROLL-2026-04,Salaries April 2026 batch,185000.00,,Payroll
+2026-04-01,RNT-2026-04,Office rent April 2026,65000.00,,Rent
+2026-04-30,AP-NCS-2026-04,Nakhon Cotton - cleared next month,42000.00,,Inventory Purchases

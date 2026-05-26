@@ -1,0 +1,19 @@
+posted_date,doc_ref,description,paid_out,received_in,gl_category
+2026-06-04,AR-300,Central Department Store - INV-2026-300,,185000.00,Domestic Sales
+2026-06-07,AR-301,Bangkok Mall Co - INV-2026-301,,142000.00,Domestic Sales
+2026-06-11,AR-302,Siam Apparel Trading - INV-2026-302,,168000.00,Domestic Sales
+2026-06-18,AR-303,Chiang Mai Outlet - INV-2026-303,,95000.00,Domestic Sales
+2026-06-24,AR-304,Phuket Surf Co - INV-2026-304,,110000.00,Domestic Sales
+2026-06-09,EXP-110,Tokyo Apparel KK - export INV EXP-110,,295000.00,Export Sales
+2026-06-21,EXP-111,Sydney Streetwear - export INV EXP-111,,238000.00,Export Sales
+2026-06-14,EXP-112,Berlin Fashion GmbH - export INV EXP-112,,312000.00,Export Sales
+2026-06-03,AP-470,Pathum Cotton Mills - PO 470,165000.00,,Inventory Purchases
+2026-06-10,AP-471,Samut Garment Factory - PO 471,220000.00,,Inventory Purchases
+2026-06-17,AP-472,Khon Kaen Textiles - PO 472,138000.00,,Inventory Purchases
+2026-06-22,FX-SELL-2026-06,"Sell USD 1,100 @ 35.0 spot",,38500.00,FX Conversion
+2026-06-02,LOAN-REPAY-2026-06,"Loan repayment principal 300,000 + interest 3,200",303200.00,,Loan Repayment
+2026-06-20,TD-PLACE-2026-06,3-month time deposit @ 2.8%,400000.00,,Time Deposit
+2026-06-15,VAT-2026-06,VAT Jun 2026 (PP30),89000.00,,Tax (VAT)
+2026-06-14,CUST-2026-06,Customs duty import declaration Jun,21000.00,,Customs Duty
+2026-06-27,PAYROLL-2026-06,Salaries June 2026 batch,185000.00,,Payroll
+2026-06-01,RNT-2026-06,Office rent June 2026,65000.00,,Rent

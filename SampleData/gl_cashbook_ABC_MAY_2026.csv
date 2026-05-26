@@ -1,0 +1,18 @@
+posted_date,doc_ref,description,paid_out,received_in,gl_category
+2026-05-04,AR-260,Central Department Store - INV-2026-260,,185000.00,Domestic Sales
+2026-05-07,AR-261,Bangkok Mall Co - INV-2026-261,,142000.00,Domestic Sales
+2026-05-11,AR-262,Siam Apparel Trading - INV-2026-262,,168000.00,Domestic Sales
+2026-05-18,AR-263,Chiang Mai Outlet - INV-2026-263,,95000.00,Domestic Sales
+2026-05-24,AR-264,Phuket Surf Co - INV-2026-264,,110000.00,Domestic Sales
+2026-05-09,EXP-100,Tokyo Apparel KK - export INV EXP-100,,295000.00,Export Sales
+2026-05-21,EXP-101,Sydney Streetwear - export INV EXP-101,,238000.00,Export Sales
+2026-05-03,AP-440,Pathum Cotton Mills - PO 440,165000.00,,Inventory Purchases
+2026-05-10,AP-441,Samut Garment Factory - PO 441,220000.00,,Inventory Purchases
+2026-05-17,AP-442,Khon Kaen Textiles - PO 442,138000.00,,Inventory Purchases
+2026-05-13,IMP-2026-05,"Import payment USD 8,000 @ 35.6 - premium fabric",305000.00,,Import Purchases
+2026-05-22,FX-SELL-2026-05,"Sell USD 1,100 @ 35.0 spot",,38500.00,FX Conversion
+2026-05-02,LOAN-DRAW-2026-05,Short-term working capital loan drawdown 60 days,,300000.00,Short-term Borrowing
+2026-05-15,VAT-2026-05,VAT May 2026 (PP30),82000.00,,Tax (VAT)
+2026-05-27,PAYROLL-2026-05,Salaries May 2026 batch,185000.00,,Payroll
+2026-05-01,RNT-2026-05,Office rent May 2026,65000.00,,Rent
+2026-05-31,AR-275,Hua Hin Boutique - INV-275,,87000.00,Domestic Sales

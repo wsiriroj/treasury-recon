@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr>
+      <MsgId>STMT-ABCCOLTD-20260430-001</MsgId>
+      <CreDtTm>2026-05-01T08:00:00</CreDtTm>
+      <MsgRcpt>
+        <Nm>ABC Co Ltd</Nm>
+      </MsgRcpt>
+    </GrpHdr>
+    <Stmt>
+      <Id>STMT-2026-04</Id>
+      <ElctrncSeqNb>4</ElctrncSeqNb>
+      <CreDtTm>2026-05-01T08:00:00</CreDtTm>
+      <FrToDt>
+        <FrDtTm>2026-04-01T00:00:00</FrDtTm>
+        <ToDtTm>2026-04-30T23:59:59</ToDtTm>
+      </FrToDt>
+      <Acct>
+        <Id>
+          <Othr>
+            <Id>123-4-56789-0</Id>
+          </Othr>
+        </Id>
+        <Ccy>THB</Ccy>
+        <Ownr>
+          <Nm>ABC Co Ltd</Nm>
+        </Ownr>
+        <Svcr>
+          <FinInstnId>
+            <BICFI>BKKBTHBK</BICFI>
+            <Nm>Bangkok Bank</Nm>
+          </FinInstnId>
+        </Svcr>
+      </Acct>
+      <Bal>
+        <Tp><CdOrPrtry><Cd>OPBD</Cd></CdOrPrtry></Tp>
+        <Amt Ccy="THB">1200000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt><Dt>2026-04-01</Dt></Dt>
+      </Bal>
+      <Bal>
+        <Tp><CdOrPrtry><Cd>CLBD</Cd></CdOrPrtry></Tp>
+        <Amt Ccy="THB">1319720.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt><Dt>2026-04-30</Dt></Dt>
+      </Bal>
+      <TxsSummry>
+        <TtlNtries>
+          <NbOfNtries>19</NbOfNtries>
+          <Sum>2431120.00</Sum>
+        </TtlNtries>
+        <TtlCdtNtries>
+          <NbOfNtries>9</NbOfNtries>
+          <Sum>1275420.00</Sum>
+        </TtlCdtNtries>
+        <TtlDbtNtries>
+          <NbOfNtries>10</NbOfNtries>
+          <Sum>1155700.00</Sum>
+        </TtlDbtNtries>
+      </TxsSummry>
+      <Ntry>
+        <NtryRef>NTRY001</NtryRef>
+        <Amt Ccy="THB">185000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-04</Dt></BookgDt>
+        <ValDt><Dt>2026-04-04</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>RCDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>INV-2026-220</EndToEndId></Refs>
+            <Amt Ccy="THB">185000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Central Department Store</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Central Department Store - INV 220</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY002</NtryRef>
+        <Amt Ccy="THB">142000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-07</Dt></BookgDt>
+        <ValDt><Dt>2026-04-07</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>RCDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>INV-2026-221</EndToEndId></Refs>
+            <Amt Ccy="THB">142000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Bangkok Mall Co</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Bangkok Mall Co - INV 221</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY003</NtryRef>
+        <Amt Ccy="THB">168000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-11</Dt></BookgDt>
+        <ValDt><Dt>2026-04-11</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>RCDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>INV-2026-222</EndToEndId></Refs>
+            <Amt Ccy="THB">168000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Siam Apparel Trading</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Siam Apparel Trading - INV 222</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY004</NtryRef>
+        <Amt Ccy="THB">95000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-18</Dt></BookgDt>
+        <ValDt><Dt>2026-04-18</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>RCDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>INV-2026-223</EndToEndId></Refs>
+            <Amt Ccy="THB">95000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Chiang Mai Outlet</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Chiang Mai Outlet - INV 223</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY005</NtryRef>
+        <Amt Ccy="THB">110000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-24</Dt></BookgDt>
+        <ValDt><Dt>2026-04-24</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>RCDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>INV-2026-224</EndToEndId></Refs>
+            <Amt Ccy="THB">110000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Phuket Surf Co</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Phuket Surf Co - INV 224</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY006</NtryRef>
+        <Amt Ccy="THB">295000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-09</Dt></BookgDt>
+        <ValDt><Dt>2026-04-09</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>RCDT</Cd><SubFmlyCd>XBCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>EXP-2026-90</EndToEndId></Refs>
+            <Amt Ccy="THB">295000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Tokyo Apparel KK</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Export Tokyo Apparel KK - INV EXP-90 (USD converted)</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY007</NtryRef>
+        <Amt Ccy="THB">238000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-21</Dt></BookgDt>
+        <ValDt><Dt>2026-04-21</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>RCDT</Cd><SubFmlyCd>XBCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>EXP-2026-91</EndToEndId></Refs>
+            <Amt Ccy="THB">238000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>Sydney Streetwear</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Export Sydney Streetwear - INV EXP-91 (USD converted)</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY008</NtryRef>
+        <Amt Ccy="THB">165000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-03</Dt></BookgDt>
+        <ValDt><Dt>2026-04-03</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>AP-410</EndToEndId></Refs>
+            <Amt Ccy="THB">165000.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Pathum Cotton Mills</Nm></Pty></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Pathum Cotton Mills - PO 410</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY009</NtryRef>
+        <Amt Ccy="THB">220000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-10</Dt></BookgDt>
+        <ValDt><Dt>2026-04-10</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>AP-411</EndToEndId></Refs>
+            <Amt Ccy="THB">220000.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Samut Garment Factory</Nm></Pty></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Samut Garment Factory - PO 411</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY010</NtryRef>
+        <Amt Ccy="THB">138000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-17</Dt></BookgDt>
+        <ValDt><Dt>2026-04-17</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>AP-412</EndToEndId></Refs>
+            <Amt Ccy="THB">138000.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Khon Kaen Textiles</Nm></Pty></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Khon Kaen Textiles - PO 412</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY011</NtryRef>
+        <Amt Ccy="THB">285000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-13</Dt></BookgDt>
+        <ValDt><Dt>2026-04-13</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>XBCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>IMP-2026-04</EndToEndId></Refs>
+            <Amt Ccy="THB">285000.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Shanghai Premium Textiles Co Ltd</Nm></Pty></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Import payment USD 8,000 @ 35.6 - premium fabric</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY012</NtryRef>
+        <Amt Ccy="THB">42000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-22</Dt></BookgDt>
+        <ValDt><Dt>2026-04-22</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>MCOP</Cd><SubFmlyCd>FCEX</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>FX-SELL-2026-04</EndToEndId></Refs>
+            <Amt Ccy="THB">42000.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RltdPties>
+              <Dbtr><Pty><Nm>FX Trading Desk</Nm></Pty></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Sell USD 1,200 @ 35.0 spot</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY013</NtryRef>
+        <Amt Ccy="THB">78000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-15</Dt></BookgDt>
+        <ValDt><Dt>2026-04-15</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>TAXS</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>VAT-2026-04</EndToEndId></Refs>
+            <Amt Ccy="THB">78000.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Revenue Department Thailand</Nm></Pty></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>VAT Apr 2026 (PP30)</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY014</NtryRef>
+        <Amt Ccy="THB">18500.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-14</Dt></BookgDt>
+        <ValDt><Dt>2026-04-14</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>TAXS</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>CUST-2026-04</EndToEndId></Refs>
+            <Amt Ccy="THB">18500.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Customs Department Thailand</Nm></Pty></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Customs duty import declaration Apr</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY015</NtryRef>
+        <Amt Ccy="THB">185000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-27</Dt></BookgDt>
+        <ValDt><Dt>2026-04-27</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>SALA</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>PAYROLL-2026-04</EndToEndId></Refs>
+            <Amt Ccy="THB">185000.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RmtInf><Ustrd>Salaries April 2026 batch</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY016</NtryRef>
+        <Amt Ccy="THB">65000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-01</Dt></BookgDt>
+        <ValDt><Dt>2026-04-01</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>PMNT</Cd>
+            <Fmly><Cd>ICDT</Cd><SubFmlyCd>ESCT</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>RNT-2026-04</EndToEndId></Refs>
+            <Amt Ccy="THB">65000.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RltdPties>
+              <Cdtr><Pty><Nm>Bangkok Office Park Co</Nm></Pty></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Office rent April 2026</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY017</NtryRef>
+        <Amt Ccy="THB">850.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-29</Dt></BookgDt>
+        <ValDt><Dt>2026-04-29</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>ACMT</Cd>
+            <Fmly><Cd>MDOP</Cd><SubFmlyCd>CHRG</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Amt Ccy="THB">850.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RmtInf><Ustrd>International wire transfer fees Apr</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY018</NtryRef>
+        <Amt Ccy="THB">350.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-30</Dt></BookgDt>
+        <ValDt><Dt>2026-04-30</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>ACMT</Cd>
+            <Fmly><Cd>MDOP</Cd><SubFmlyCd>CHRG</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Amt Ccy="THB">350.00</Amt>
+            <CdtDbtInd>DBIT</CdtDbtInd>
+            <RmtInf><Ustrd>Account maintenance fee Apr</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <NtryRef>NTRY019</NtryRef>
+        <Amt Ccy="THB">420.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts><Cd>BOOK</Cd></Sts>
+        <BookgDt><Dt>2026-04-30</Dt></BookgDt>
+        <ValDt><Dt>2026-04-30</Dt></ValDt>
+        <BkTxCd>
+          <Domn>
+            <Cd>ACMT</Cd>
+            <Fmly><Cd>MDOP</Cd><SubFmlyCd>INTR</SubFmlyCd></Fmly>
+          </Domn>
+        </BkTxCd>
+        <NtryDtls>
+          <TxDtls>
+            <Amt Ccy="THB">420.00</Amt>
+            <CdtDbtInd>CRDT</CdtDbtInd>
+            <RmtInf><Ustrd>Credit interest April 2026</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>
