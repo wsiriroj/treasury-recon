@@ -1,4 +1,4 @@
-# V2.Semi-Automated Treasury Reconciliation \& Cash Flow Dashboard
+#Semi-Automated Treasury Reconciliation \& Cash Flow Dashboard
 
 **Author:** Wanlaya Sirirojanan
 
