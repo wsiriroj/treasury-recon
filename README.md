@@ -15,7 +15,7 @@ the same way — opening a bank statement, copying transactions manually into
 Excel, matching them against accounting records and other internal information
 by hand, then building a cash position report for the morning meeting.
 
-It works. But it takes 2–3 hours that should not need to be spent that way. Large multinationals solve this with a Treasury Management System (TMS) , example WallstreetSuite, Kyriba. A TMS automatically receives bank statement files (MT940 or CAMT.053), reconciles transactions, and updates the cash position in real time. But a TMS costs significantly more than most companies can justify to implement and maintain.
+It works. But it takes 2–3 hours that should not need to be spent that way. Large multinationals solve this with a Treasury Management System (TMS) , such as WallstreetSuite, Kyriba. A TMS automatically receives bank statement files (MT940 or CAMT.053), reconciles transactions, and updates the cash position in real time. But a TMS costs significantly more than most companies can justify to implement and maintain.
 
 This project fills the gap between "manual copy-paste every morning" and "full TMS implementation.
 
