@@ -174,7 +174,7 @@ when an update is required
 This project reflects my experience in corporate treasury, a frustration I encountered repeatedly across teams.
 
 Most treasury and finance teams cannot solve technical problems on their own. When they need support, they join a queue. A simple automation request that should take a week ends up taking three months, waiting behind other projects from other departments.
-The goal was to change that. If a treasury analyst can solve the problem themselves — using tools already on their laptop, without writing a single line of code — they do not need to wait. The work gets done in days, not quarters.
+The goal was to change that. If a treasury analyst can solve the problem themselves — using tools already on their laptop, without writing a single line of code — they do not need to wait. The work gets done in weeks, not quarters.
 This project is that solution. Built by a treasury person, for treasury people.
 
 It does not replace a TMS and was never designed to. But it reduces the daily burden — filtering transactions, flagging exceptions, and delivering a cash position in under an hour. For a team that previously spent their morning on manual work, that is enough to matter.
