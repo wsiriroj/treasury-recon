@@ -50,15 +50,15 @@ single click.
 
 ## Dashboard Preview
 
-![Daily Cash Flow](https://github.com/wsiriroj/treasury-recon/raw/main/Screenshots/cashflow_daily.png)
+![Daily Cash Flow][https://github.com/wsiriroj/treasury-recon/blob/main/Screenshots/overview_dashboard.png]
 
 
 
-!\[Daily Cash Flow](Screenshots/cashflow\_daily.png)
+![Daily Cash Flow][https://github.com/wsiriroj/treasury-recon/blob/main/Screenshots/cashflow_daily.png]
 
 
 
-!\[Reconciliation Status](Screenshots/reconciliation\_status.png)
+![Daily Cash Flow][https://github.com/wsiriroj/treasury-recon/blob/main/Screenshots/reconciliation_status.png]
 
 \---
 
