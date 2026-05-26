@@ -171,13 +171,13 @@ when an update is required
 
 ## Why This Project
 
-This project reflects my experience in corporate treasury applied to a problem
-that exists in almost every small and mid-size company — the gap between what
-a TMS can do and what most finance teams can actually access.
+This project reflects my experience in corporate treasury, a frustration I encountered repeatedly across teams.
 
-The goal was to build something a treasury analyst with no coding background
-can operate and maintain independently, with less manual process and less time
-consumed, using tools already available, solving a real daily pain point.
+Most treasury and finance teams cannot solve technical problems on their own. When they need support, they join a queue. A simple automation request that should take a week ends up taking three months, waiting behind other projects from other departments.
+The goal was to change that. If a treasury analyst can solve the problem themselves — using tools already on their laptop, without writing a single line of code — they do not need to wait. The work gets done in days, not quarters.
+This project is that solution. Built by a treasury person, for treasury people.
+
+It does not replace a TMS and was never designed to. But it reduces the daily burden — filtering transactions, flagging exceptions, and delivering a cash position in under an hour. For a team that previously spent their morning on manual work, that is enough to matter.
 
 *All business logic, mapping process and reconciliation design, and analytical decisions were
 defined by the author.*
