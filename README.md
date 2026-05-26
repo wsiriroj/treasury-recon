@@ -50,7 +50,7 @@ single click.
 
 ## Dashboard Preview
 
-!\[Overview Dashboard](Screenshots/overview\_dashboard.png)
+![Daily Cash Flow](https://github.com/wsiriroj/treasury-recon/raw/main/Screenshots/cashflow_daily.png)
 
 
 
